@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Blogger's Oasis</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="./assets/logo.png" alt="The Blogger's Oasis Logo" class="logo">
+            </a>
+        </div>
+        <h2>The Blogger's Oasis</h2>
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="about.html"><b>About</b></a></li>
+                <li><a href="blogpost.html"><b>My Posts</b></a></li>
+                <li><a href="explore.html"><b>Categories</b></a></li>
+                <li><a href="contact.html"><b>Contact</b></a></li>
+                <li><a href="login.html" class="login-btn"><b>Login</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact-section">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+            <form>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email Address" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your message here" required></textarea>
+                </div>
+                <a href="sendMessage.html" type="submit" class="submit-btn">Send Message</a>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

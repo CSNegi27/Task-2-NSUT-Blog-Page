@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Blogger's Oasis</title>
+    <link rel="stylesheet" href="blogpost.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="./assets/logo.png" alt="The Blogger's Oasis Logo" class="logo">
+            </a>
+        </div>
+        <h2>The Blogger's Oasis</h2>
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="about.html"><b>About</b></a></li>
+                <li><a href="blogpost.html"><b>My Posts</b></a></li>
+                <li><a href="explore.html"><b>Categories</b></a></li>
+                <li><a href="contact.html"><b>Contact</b></a></li>
+                <li><a href="login.html" class="login-btn"><b>Login</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="blog-section">
+        <div class="container">
+            <div class="blog-posts">
+                <div class="blog-box">
+                    <h2>AI and Humanity: Partners, Not Replacements</h2>
+                    <img src="./assets/AI and Human.jpg" alt="AI and Humanity">
+                    <p class="blog-meta">Posted by <span class="author"> Chaitanya </span> on <span class="date">July 25, 2024</span></p>
+                    <p>Despite rapid advancements, AI is unlikely to fully replace humans. While it excels in automation and data processing, it lacks emotional intelligence, creativity, and ethical judgment. AI is a tool designed to complement human abilities, not a substitute. Embracing this partnership can drive innovation and enhance our collective potential...</p>
+                    <a href="myblog1.html" class="read-more">Read More</a>
+                </div>
+                <div class="blog-box">
+                    <h2>Daily Habits for a Healthier Mindset</h2>
+                    <img src="./assets/healthy habits.jpg" alt="Healthy Mindset">
+                    <p class="blog-meta">Posted by <span class="author"> Chaitanya </span> on <span class="date">July 27, 2024</span></p>
+                    <p>Prioritize your mental well-being by incorporating simple daily habits. Start with mindful meditation to center yourself, maintain a balanced diet to fuel your brain, and carve out time for physical activity. Connecting with loved ones and setting aside moments for self-care can also uplift your mood and resilience...</p>
+                    <a href="myblog2.html" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="new-post">
+                <h2>Create New Blog Post</h2>
+                <form class="new-post-form">
+                    <div class="input-group">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" name="title" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="content">Content</label>
+                        <textarea id="content" name="content" rows="8" required></textarea>
+                    </div>
+                    <a href="post.html" type="submit" class="submit-btn">Post Blog</a>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

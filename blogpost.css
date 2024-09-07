@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #c0c0c0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 65px; 
+    width: auto;
+}
+
+h2 {
+    color: #20b2aa;
+    margin: 5px;
+    padding: 12px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-links a:hover {
+    font-size: large;
+    color: #ff7f50;  
+    transform: scale(1.1);
+}
+
+.login-btn {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 3px solid grey;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #c0c0c0;
+    transform: scale(1.1);
+}
+
+.login-btn:active {
+    transform: scale(0.95);
+}
+
+/* Blog Section */
+.blog-section {
+    padding: 60px 20px;
+    background-color: #1e1e1e;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Blog Posts */
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.blog-box {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.blog-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #f39c12;
+}
+
+.blog-meta {
+    font-size: 0.9rem;
+    color: #d3d3d3;
+    margin-bottom: 15px;
+}
+
+.blog-meta .author,
+.blog-meta .date {
+    font-weight: 600;
+    color: #ff9f43;
+}
+
+.blog-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d3d3d3;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 15px;
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.read-more:hover {
+    color: #e67e22;
+    transform: scale(1.05);
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* New Post */
+.new-post {
+    margin-top: 60px;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.new-post h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.new-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #f39c12;
+}
+
+.submit-btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f39c12;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: underline #f39c12;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+.submit-btn:active {
+    transform: scale(0.95);
+}
